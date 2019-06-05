@@ -1,11 +1,15 @@
-header h1{
+.titulo-inicio{
     vertical-align: middle;
     text-transform: uppercase;
     font-size: 3em;
     text-shadow: 3px 3px #000;
     color: white;
-    font-family: "Shadows Into Light", cursive;
+    margin-top: 0;
+    font-family: "Times New Roman";
+}
 
+span.span-labs{
+    font-family: "Shadows Into Light", cursive;
 }
 footer {
     background-color: #000;
@@ -53,7 +57,7 @@ body {
             animation: aparece 2s;
 }
 .artificial {
-    top: 50%;
+    top: 45%;
     left: 60%;
     -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
@@ -171,4 +175,7 @@ ul{
     margin-left: auto;
     margin-right: auto;
     padding: 1.0em 0;
+}
+.paragrafo-inicio{
+    text-align: justify;
 }
