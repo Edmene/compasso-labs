@@ -1,9 +1,10 @@
 header h1{
-	vertical-align: middle;
-	text-transform: uppercase;
-	font-size: 3em;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 3em;
     text-shadow: 3px 3px #000;
-    color: blue;
+    color: white;
+    font-family: "Shadows Into Light", cursive;
 
 }
 footer {
@@ -31,6 +32,7 @@ body {
             perspective: 6px;
     -webkit-perspective-origin: 50% 160px;
             perspective-origin: 50% 160px;
+    margin-top: 0px;
 }
 .palavras-home {
     -webkit-transform-style: preserve-3d;
@@ -129,12 +131,12 @@ body {
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
     position: relative;
-    background-color: lightgray;
+    background-color: #12477b;
     height: 50%;
     text-align: center;
 }
 ul{
-	list-style: none;
+    list-style: none;
 }
 @-webkit-keyframes aparece {
     from {
@@ -163,4 +165,10 @@ ul{
     to {
         top: 5px;
     }
+}
+.container {
+    width: 110ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.0em 0;
 }
