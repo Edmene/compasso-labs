@@ -5,7 +5,7 @@
     text-shadow: 3px 3px #000;
     color: white;
     margin-top: 0;
-    font-family: "Open Sans Condensed";
+    font-family: "Open Sans", sans-serif;
 }
 header{
     margin-top: 30px;
@@ -29,7 +29,7 @@ main {
     width: 100%;
     padding-bottom: 0;
     float: none;
-    background-color: lightgray;
+    background-color: #f2fffc;
 }
 html,body {
     overflow-x: hidden;
@@ -183,7 +183,30 @@ ul{
 }
 .paragrafo-inicio{
     text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    color: gray;
 }
 .secao-vertentes{
-    background-color: #12477b;
+    background-color: #0a355f;
+}
+.titulo-vertentes{
+    text-align: center;
+}
+.img1{
+    width: 400px;
+    height: 250px;
+    border: 10px solid black;
+    float: left;
+}
+.img2{
+    width: 400px;
+    height: 250px;
+    border: 10px solid black;
+    float: right;
+}
+.img3{
+    width: 400px;
+    height: 250px;
+    border: 10px solid black;
+    float: right;
 }
