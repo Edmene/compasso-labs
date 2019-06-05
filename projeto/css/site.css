@@ -15,7 +15,7 @@ span.span-labs{
     font-family: "Shadows Into Light", cursive;
 }
 footer {
-    background-color: #000;
+    background-color: #222222;
     color: #FFF;
     padding: 2em;
 }
@@ -23,13 +23,13 @@ footer h2 {
     font-size: 3em;
 }
 footer a {
-    color: #F99;
+    color: #ffe9bb;
 }
 main {
     width: 100%;
     padding-bottom: 0;
     float: none;
-    background-color: #f2fffc;
+    background-color: #f2fffc;    
 }
 html,body {
     overflow-x: hidden;
