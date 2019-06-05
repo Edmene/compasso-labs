@@ -1,5 +1,6 @@
 .titulo-inicio{
-    vertical-align: middle;
+    text-align: center;
+    transform: translateY(160%);
     text-transform: uppercase;
     font-size: 3em;
     text-shadow: 3px 3px #000;
