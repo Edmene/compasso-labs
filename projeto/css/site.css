@@ -5,7 +5,10 @@
     text-shadow: 3px 3px #000;
     color: white;
     margin-top: 0;
-    font-family: "Times New Roman";
+    font-family: "Open Sans Condensed";
+}
+header{
+    margin-top: 30px;
 }
 
 span.span-labs{
@@ -26,6 +29,7 @@ main {
     width: 100%;
     padding-bottom: 0;
     float: none;
+    background-color: lightgray;
 }
 html,body {
     overflow-x: hidden;
@@ -175,7 +179,11 @@ ul{
     margin-left: auto;
     margin-right: auto;
     padding: 1.0em 0;
+    
 }
 .paragrafo-inicio{
     text-align: justify;
+}
+.secao-vertentes{
+    background-color: #12477b;
 }
