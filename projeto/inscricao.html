@@ -14,16 +14,20 @@
             <div class="container">
 
                 <form>
-                
-                    <label for="nome">
-                        Nome completo
-                        <input name="nome" autofocus id="nome">
-                    </label>
 
-                    <label for="email">
-                        E-Mail
-                        <input name="email" id="email">
-                    </label>
+                    <fieldset>
+                
+                        <label for="nome">
+                            Nome completo
+                            <input name="nome" autofocus id="nome" required>
+                        </label>
+
+                        <label for="email">
+                            E-Mail
+                            <input name="email" id="email" placeholder="seu@email.com" required>
+                        </label>
+
+                    </fieldset>
                     
                     <fieldset>
                             <legend>Maior disponibilidade</legend>
@@ -74,6 +78,17 @@
                                 Outro
                                 <input name="outro-interesse">
                             </label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <label>
+                            Porque você quer participar?
+                            
+                            <textarea placeholder="Digite aqui sua mensagem" required 
+                            cols="30" rows="6" name="participacao"></textarea>
+
+                        </label>
 
                     </fieldset>
 
