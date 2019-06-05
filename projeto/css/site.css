@@ -1,3 +1,11 @@
+header h1{
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-size: 3em;
+    text-shadow: 3px 3px #000;
+    color: blue;
+
+}
 footer {
     background-color: #000;
     color: #FFF;
@@ -37,7 +45,7 @@ body {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
     font-size: 400%;
-    color: rgba(255, 127, 127, .5);
+    color: white;
     position: absolute;
     -webkit-animation: aparece 2s;
             animation: aparece 2s;
@@ -121,4 +129,38 @@ body {
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
     position: relative;
+    background-color: lightgray;
+    height: 50%;
+    text-align: center;
+}
+ul{
+	list-style: none;
+}
+@-webkit-keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+@-webkit-keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
 }
