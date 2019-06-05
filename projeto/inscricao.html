@@ -1,36 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
     <head>
-        <title>Inscreva-se</title>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <title>Inscreva-se</title>        
         <link rel="icon" href="img/favicon.jpg">
-        <link rel="stylesheet" src="css/reset.css">
-        <link rel="stylesheet" src="css/site.css">
-        <link rel="stylesheet" src="css/inscricao.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/inscricao.css"/>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Slab:400,400italic,600">
+	    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+	    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
     </head>
 
     <body>
 
         <main>
             
-            <h1 class="titulo-principal">Inscreva-se</h1>
+            <h1 class="titulo-paginas-secundarias">Inscreva-se</h1>
 
             <div class="container">
 
                 <p>Faça parte desse time se inscrevendo na próxima edição do programa de bolsas</p>
 
-                <form>
+                <form class="form-inscricao">
 
                     <fieldset>
                 
                         <label for="nome">
                             Nome completo
-                            <input name="nome" autofocus id="nome" required>
+                            <input name="nome" type="text" autofocus id="nome" required>
                         </label>
 
                         <label for="email">
                             E-Mail
-                            <input name="email" id="email" placeholder="seu@email.com" required>
+                            <input name="email" type="text" id="email" placeholder="seu@email.com" required>
                         </label>
 
                     </fieldset>
@@ -56,7 +59,7 @@
                             <label>
                                 <input type="radio" name="disponibilidade" value="personalizar">
                                 personalizar
-                                <input name="personalizar">
+                                <input name="personalizar" type="text" class="input-oculto">
                             </label> 
     
                     </fieldset>
@@ -82,13 +85,13 @@
                             <label>
                                 <input type="checkbox" name="outro" value="outro">
                                 Outro
-                                <input name="outro-interesse">
+                                <input name="outro-interesse" type="text" class="input-oculto">
                             </label>
 
                     </fieldset>
 
                     <fieldset>
-                        <label>
+                        <label class="input-label">
                             Porque você quer participar?
                             
                             <textarea placeholder="Digite aqui sua mensagem" required 
@@ -98,7 +101,7 @@
 
                     </fieldset>
 
-                    <button type="submit">Enviar Mensagem</button>
+                    <button type="submit" class="botao-enviar">Enviar Mensagem</button>
 
                 </form>
 

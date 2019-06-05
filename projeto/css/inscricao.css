@@ -1,5 +1,46 @@
-.titulo-principal{
+.titulo-paginas-secundarias{
     background-color:  #12477b;
+    color: #ffffff;
     width: 100%;
-    padding: 3em;
+    font-size: 3em;
+    padding: 1em;
+    font-family: "Open Sans Condensed", sans-serif;;
+    text-align: center;
+    font-stretch: narrower;
 }
+
+.form-inscricao{
+    background-color: #f2fffc;
+    display: flex;
+    flex-flow: column;
+}
+
+.form-inscricao input[type="text"]{
+    width: 100%;
+}
+
+.form-inscricao label{
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.input-oculto{
+    display: none;
+}
+
+.botao-enviar{
+    margin: 2ch 2ch;
+    align-self: center;
+    width: 80%;
+    background-color: #12477b;
+    font-size: 1.5em;
+    padding: 0.5em;
+    color: #ffe;
+    font-family: "Josefin Stab", "Times New Romans", serif;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.input-label textarea{
+    display: block;
+}
+
