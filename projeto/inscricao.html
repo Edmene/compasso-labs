@@ -8,6 +8,99 @@
 
     <body>
 
+        <main>
+            
+
+            <div class="container">
+
+                <form>
+
+                    <fieldset>
+                
+                        <label for="nome">
+                            Nome completo
+                            <input name="nome" autofocus id="nome" required>
+                        </label>
+
+                        <label for="email">
+                            E-Mail
+                            <input name="email" id="email" placeholder="seu@email.com" required>
+                        </label>
+
+                    </fieldset>
+                    
+                    <fieldset>
+                            <legend>Maior disponibilidade</legend>
+
+                            <label>
+                                <input type="radio" name="disponibilidade" value="manhã">
+                                manhã
+                            </label>
+
+                            <label>
+                                <input type="radio" name="disponibilidade" value="tarde">
+                                tarde
+                            </label>
+
+                            <label>
+                                <input type="radio" name="disponibilidade" value="noite">
+                                noite
+                            </label>
+    
+                            <label>
+                                <input type="radio" name="disponibilidade" value="personalizar">
+                                personalizar
+                                <input name="personalizar">
+                            </label> 
+    
+                    </fieldset>
+
+                    <fieldset name="interesses">
+                            <legend>Interesses</legend>
+
+                            <label>
+                                <input type="checkbox" name="ia" value="ia">
+                                IA
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="big-data" value="big-data">
+                                Big Data
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="machine-learning" value="machine-learning">
+                                Machine Learning
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="outro" value="outro">
+                                Outro
+                                <input name="outro-interesse">
+                            </label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <label>
+                            Porque você quer participar?
+                            
+                            <textarea placeholder="Digite aqui sua mensagem" required 
+                            cols="30" rows="6" name="participacao"></textarea>
+
+                        </label>
+
+                    </fieldset>
+
+                    <button type="submit">Enviar Mensagem</button>
+
+                </form>
+
+            </div>
+            
+        </main>
+
+
 
     </body>
 
