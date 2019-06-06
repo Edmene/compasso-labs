@@ -302,3 +302,6 @@ ul{
 ul{
     padding: 0px;
 }
+footer a:hover{
+    color: white;
+}
