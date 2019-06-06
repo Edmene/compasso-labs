@@ -50,8 +50,8 @@
     margin-top: 1.2em;
 }
 
-input[type="checkbox"] .input-oculto,
-input[type="radio"] .input-oculto{
+input[type="checkbox"]:checked + .input-oculto,
+input[type="radio"]:checked + .input-oculto{
     display: block;
 }
 
@@ -81,6 +81,11 @@ input[type="radio"] .input-oculto{
     font-family: "Josefin Stab", "Times New Romans", serif;
     border: 0;
     text-transform: uppercase;
+}
+
+.botao-enviar-ativado:hover{
+    color: #12477b;
+    background-color: #ffe;
 }
 
 .input-label{

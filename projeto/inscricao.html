@@ -29,7 +29,7 @@
                 
                         <label for="nome">
                             Nome completo
-                            <input name="nome" type="text" autofocus id="nome" required>
+                            <input name="nome" type="text" pattern="^[a-zA-Z\s]*$" autofocus id="nome" required>
                         </label>
 
                         <label for="email">
@@ -102,7 +102,7 @@
 
                     </fieldset>
 
-                    <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+                    <button id="submit" type="submit" class="botao-enviar">Enviar Mensagem</button>
 
                 </form>
 
@@ -113,9 +113,11 @@
         <footer>
 
             <h2>Compasso Tecnologia LTDA</h2>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Link</a></li> 
+            <ul>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Link</a></li>
+            </ul> 
 
         </footer>
 
