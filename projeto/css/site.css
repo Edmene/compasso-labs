@@ -188,6 +188,7 @@ ul{
 }
 .secao-vertentes{
     background-color: #0a355f;
+
 }
 .titulo-vertentes{
     text-align: center;
@@ -196,17 +197,23 @@ ul{
     width: 400px;
     height: 250px;
     border: 10px solid black;
-    float: left;
+
+    
 }
 .img2{
     width: 400px;
     height: 250px;
     border: 10px solid black;
-    float: right;
+    
 }
 .img3{
     width: 400px;
     height: 250px;
     border: 10px solid black;
-    float: right;
+    
+}
+
+.secao-vertentes ul{
+    display: flex;
+    flex-flow: row;
 }
