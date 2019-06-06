@@ -1,19 +1,19 @@
 .titulo-inicio{
     text-align: center;
-    transform: translateY(160%);
+    transform: translateY(140%);
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 4em;
     text-shadow: 3px 3px #000;
     color: white;
     margin-top: 0;
-    font-family: "Open Sans", sans-serif;
-}
-header{
-    margin-top: 30px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 300;
 }
 
 span.span-labs{
     font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: italic;
 }
 footer {
     background-color: #222222;
@@ -35,6 +35,7 @@ main {
 html,body {
     overflow-x: hidden;
     height: 100%;
+    margin:0;
 }
 body {
     -webkit-perspective: 6px;
@@ -51,6 +52,7 @@ body {
     right: 0;
     top: 0;
     left: 0;
+    margin:0;
 }
 .palavra-home {
     font-family: "Shadows Into Light", cursive;
@@ -176,45 +178,68 @@ ul{
     }
 }
 .container {
-    width: 110ch;
     margin-left: auto;
     margin-right: auto;
     padding: 1.0em 0;
+    width: 80%;
     
 }
 .paragrafo-inicio{
     text-align: justify;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     color: gray;
+    line-height: 1.0;
 }
 .secao-vertentes{
     background-color: #0a355f;
+    margin-top: 50px;
+    margin-bottom: 100px;
 
 }
 .titulo-vertentes{
     text-align: center;
+    font-size: 3em;
+    text-shadow: 3px 3px #000;
+    color: white;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 .img1{
-    width: 400px;
-    height: 250px;
-    border: 10px solid black;
+    width: 420px;
+    height: 300px;
+    margin-left: 0px;
 
-    
 }
 .img2{
-    width: 400px;
+    width: 500px;
     height: 250px;
-    border: 10px solid black;
     
 }
 .img3{
-    width: 400px;
-    height: 250px;
-    border: 10px solid black;
+    width: 420px;
+    height: 272px;
+    float: right;
     
 }
 
 .secao-vertentes ul{
     display: flex;
     flex-flow: row;
+    justify-content: center;
+
 }
+.botao{
+    text-align: center;
+}
+.secao-inicio{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.item2 {
+    transform: scale(1.1);
+}
+.vertentes img{
+    border: 3px solid black;
+} 
