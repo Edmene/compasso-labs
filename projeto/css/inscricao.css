@@ -1,3 +1,11 @@
+.container-form{
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    align-items: center;
+    width: 100%;    
+}
+
 .titulo-paginas-secundarias{
     background-color:  #12477b;
     color: #ffffff;
@@ -7,11 +15,8 @@
     padding: 1em;
     font-family: "Open Sans Condensed", sans-serif;;
     text-align: center;
-    font-stretch: narrower;
-}
-
-.container{
-    transform: translateX(8%);
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 .form-inscricao{
