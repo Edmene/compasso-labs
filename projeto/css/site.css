@@ -1,3 +1,6 @@
+.vertentes{
+    margin: 0px;
+}
 .titulo-inicio{
     text-align: center;
     transform: translateY(140%);
@@ -180,7 +183,6 @@ ul{
 .container {
     margin-left: auto;
     margin-right: auto;
-    padding: 1.0em 0;
     width: 80%;
     
 }
@@ -192,8 +194,6 @@ ul{
 }
 .secao-vertentes{
     background-color: #0a355f;
-    margin-top: 50px;
-    margin-bottom: 100px;
 
 }
 .titulo-vertentes{
@@ -204,6 +204,8 @@ ul{
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: 300;
     text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-top: 25px;
 }
 .img1{
     width: 420px;
@@ -228,6 +230,7 @@ ul{
     flex-flow: row;
     justify-content: center;
 
+
 }
 .botao{
     text-align: center;
@@ -243,3 +246,53 @@ ul{
 .vertentes img{
     border: 3px solid black;
 } 
+.img1:hover, .img2:hover, .img3:hover{
+    border: 3px solid gray;
+}
+.faca-parte{
+    margin-bottom: 60px;
+}
+
+.saiba-mais{
+    margin: 2ch 2ch;
+    align-self: center;
+    width: 35%;
+    background-color: #12477b;
+    font-size: 1.5em;
+    padding: 0.5em;
+    color: #ffe;
+    font-family: "Open Sans Condensed", "Times New Romans", sans-serif;
+    border: 0;
+    text-transform: uppercase;
+    border: 1px solid #12477b;
+}
+.faca-parte{
+    background-color: white;
+    color: #12477b;
+    margin: 2ch 2ch;
+    align-self: center;
+    width: 30%;
+    font-size: 1.5em;
+    padding: 0.5em;
+    font-family: "Open Sans Condensed", "Times New Romans", sans-serif;
+    border: 0;
+    text-transform: uppercase;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+.saiba-mais:hover{
+    background-color: white;
+    color: #12477b;
+    border: 1px solid #12477b;
+}
+.faca-parte:hover{
+    background-color: #0a355f;
+    color: white;
+    border: 1px solid white;
+}
+.secao-inicio{
+    height: 50%;
+}
+ul{
+    padding: 0px;
+}
