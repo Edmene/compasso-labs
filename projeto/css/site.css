@@ -21,13 +21,19 @@ span.span-labs{
 footer {
     background-color: #222222;
     color: #FFF;
-    padding: 2em;
+    padding: 1em;
+    font-family: "Open Sans Condensed", sans-serif;
+
 }
 footer h2 {
     font-size: 3em;
+    margin: 2px 2px 2px 8px;
+}
+footer ul{
+    margin-left: 10px;
 }
 footer a {
-    color: #ffe9bb;
+    color: lightblue;
 }
 main {
     width: 100%;
