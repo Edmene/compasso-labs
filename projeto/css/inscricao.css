@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 .container-form{
     display: flex;
     flex-flow: column;
@@ -79,8 +83,9 @@ input[type="radio"]:checked + .input-oculto{
     padding: 0.5em;
     color: #ffe;
     font-family: "Josefin Stab", "Times New Romans", serif;
-    border: 0;
     text-transform: uppercase;
+    border: 1px solid #12477b;
+    transition-duration: .5s;
 }
 
 .botao-enviar-ativado:hover{
@@ -105,4 +110,28 @@ input[type="radio"]:checked + .input-oculto{
     font-family: "Open Sans", Arial, sans-serif;
     font-weight: bold;
     font-size: 0.9em;
+}
+
+.aviso-preencher{
+    top: 0;
+    left: 0;
+    transform: translate(425%, 200%);
+    z-index: 10;
+    display: flex;
+    position: fixed;
+    background-color: #222222;
+    color: #ffe;
+    width: 200px;
+    height: 200px;
+    box-sizing: content-box;
+    transition-timing-function: ease-in-out;
+    transition-duration: .35s;
+    box-shadow: 0 0 0 1000px rgba(204, 204, 204, 0.5);
+}
+.aviso-preencher p {
+    text-align: center;
+    align-self: center;
+    alignment-baseline: central;
+    -webkit-transform: translate(12px, 0);
+    -moz-transform: translate(0,0);
 }

@@ -23,13 +23,13 @@
 
                 <p>Faça parte desse time se inscrevendo na próxima edição do programa de bolsas</p>
 
-                <form class="form-inscricao">
+                <form class="form-inscricao" action="#">
 
                     <fieldset>
                 
                         <label for="nome">
                             Nome completo
-                            <input name="nome" type="text" pattern="^[a-zA-Z\s]*$" autofocus id="nome" required>
+                            <input name="nome" type="text" pattern="^[a-zA-ZâÂãÃçóòáàüẑéèêõÕ\s]*$" autofocus id="nome" required>
                         </label>
 
                         <label for="email">
@@ -122,7 +122,13 @@
         </footer>
 
         <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/DadosInscricao.js"></script>
         <script src="js/inscricao.js"></script>
+        <script>
+            let inscricao = new Inscricao(this.document);
+            $("form")[0].reset();
+            $("#nome")[0].focus();
+        </script>
 
     </body>
 

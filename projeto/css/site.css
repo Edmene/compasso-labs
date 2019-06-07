@@ -228,17 +228,18 @@ ul{
 .img3{
     width: 420px;
     height: 272px;
-    float: right;
-    
+}
+
+.img1, .img2, .img3{
+    transition-duration: 0.8s;
 }
 
 .secao-vertentes ul{
     display: flex;
     flex-flow: row;
     justify-content: center;
-
-
 }
+
 .botao{
     text-align: center;
 }
@@ -255,6 +256,8 @@ ul{
 } 
 .img1:hover, .img2:hover, .img3:hover{
     border: 3px solid gray;
+    transform: scale(1.1);
+    z-index: 3;
 }
 .faca-parte{
     margin-bottom: 60px;
