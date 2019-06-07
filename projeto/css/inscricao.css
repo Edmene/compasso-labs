@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .container-form{
@@ -29,25 +29,6 @@ body{
     display: flex;
     flex-flow: column;
     max-width: 700px;  
-}
-
-.form-inscricao input[type="text"]:focus,
-.form-inscricao input[type="email"]:focus,
-.form-inscricao textarea:focus{
-    border: 1px solid #12477b;
-    box-shadow: 0 0 1px #12477b;
-}
-
-.form-inscricao input[type="text"]:valid,
-.form-inscricao input[type="email"]:valid{
-    border: 1px solid green;
-    box-shadow: 0 0 1px green;
-}
-
-.form-inscricao input[type="text"]:invalid,
-.form-inscricao input[type="email"]:invalid{
-    border: 1px solid red;
-    box-shadow: 0 0 1px red; 
 }
 
 .form-inscricao fieldset{
@@ -112,26 +93,46 @@ input[type="radio"]:checked + .input-oculto{
     font-size: 0.9em;
 }
 
-.aviso-preencher{
-    top: 0;
-    left: 0;
-    transform: translate(425%, 200%);
-    z-index: 10;
-    display: flex;
-    position: fixed;
-    background-color: #222222;
-    color: #ffe;
-    width: 200px;
+.confirmacao{    
+    background-color: #f2fffc;
+    width: 40%;
     height: 200px;
     box-sizing: content-box;
     transition-timing-function: ease-in-out;
     transition-duration: .35s;
-    box-shadow: 0 0 0 1000px rgba(204, 204, 204, 0.5);
 }
-.aviso-preencher p {
-    text-align: center;
-    align-self: center;
-    alignment-baseline: central;
-    -webkit-transform: translate(12px, 0);
-    -moz-transform: translate(0,0);
+.confirmacao a {
+    display: inline-block;
+    color: #4e7e8e;
 }
+
+.campo-invalido{
+    border: 2px solid red;
+    box-shadow: 0 0 3px red;
+}
+
+.campo-valido{
+    border: 2px solid green;
+    box-shadow: 0 0 3px green;
+}
+
+.campo-focus{
+    border: 2px solid #12477b;
+    box-shadow: 0 0 3px #12477b;
+}
+
+.input-oculto:focus{
+    border: 1px solid #12477b;
+    box-shadow: 0 0 0.5px #12477b;
+}
+
+.input-oculto:valid{
+    border: 2px solid green;
+    box-shadow: 0 0 3px green;
+}
+
+.input-oculto:invalid{
+    border: 2px solid red;
+    box-shadow: 0 0 3px red;
+}
+

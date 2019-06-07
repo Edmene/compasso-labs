@@ -29,7 +29,7 @@
                 
                         <label for="nome">
                             Nome completo
-                            <input name="nome" type="text" pattern="^[a-zA-ZâÂãÃçóòáàüẑéèêõÕ\s]*$" autofocus id="nome" required>
+                            <input name="nome" type="text" required autofocus id="nome" required>
                         </label>
 
                         <label for="email">
@@ -125,6 +125,7 @@
         <script src="js/DadosInscricao.js"></script>
         <script src="js/inscricao.js"></script>
         <script>
+            var form=$("form")[0];
             let inscricao = new Inscricao(this.document);
             $("form")[0].reset();
             $("#nome")[0].focus();
