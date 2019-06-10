@@ -96,6 +96,9 @@ input[type="radio"]:checked + .input-oculto{
 .confirmacao{    
     background-color: #f2fffc;
     width: 40%;
+    font-family: "Open Sans Condensed", sans-serif;
+    padding-bottom: 19%;
+    line-height: 2.5;
     height: 200px;
     box-sizing: content-box;
     transition-timing-function: ease-in-out;
