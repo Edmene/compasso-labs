@@ -5,7 +5,7 @@ class DadosInscricao {
         this._disponibilidade = disponibilidade;
         this._interesses = interesses;
         this._participacao = participacao;
-        this._personalizar = personalizar;
+        this._dispPersonalizada = personalizar;
         Object.freeze(this);
     }
 

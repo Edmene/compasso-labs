@@ -206,7 +206,7 @@ class Inscricao {
                 }
                 else{
                     if(item.type == "text"){
-                        interesse[interesse.indexOf({"outro": ""})] = {"outro": item.value};
+                        interesse.push({"outro": item.value});
                     }
                 }
             });
@@ -217,10 +217,21 @@ class Inscricao {
                 interesse, participacao, personalizar);
 
             this._form.reset();
-            this._interesseNumero.n = 0;
-            this.formConfirmacao(dadosInscricao);
+            this._interesseNumero.n = 0;            
 
-            console.log(dadosInscricao);
+            let inscricaoJson = JSON.stringify(dadosInscricao);
+            console.log(inscricaoJson);            
+            fetch("http://inscricao", 
+                {
+                    headers: {
+                        "Content-type": "application/json"
+                    }, 
+                    method: "post",
+                    body: inscricaoJson
+                }
+            )
+            .catch(erro => console.log(erro));
+            this.formConfirmacao(dadosInscricao);
         }
     }
 
